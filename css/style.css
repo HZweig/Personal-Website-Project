@@ -1,8 +1,26 @@
+
+
 h1 {
 	color: #FF0099;
 	border: 2px, solid black;
+	text-align: center
 }
 
 #options {
 	font-style: italic;
+}
+
+body {
+	/*Have to change the picture compress it for web- gimp, like photoshop. can save file */
+	background: url("http://missbuttercup.wpengine.com/wp-content/uploads/2013/03/centralpark.jpg") no-repeat;
+	background-size: cover; /* makes it responsive to size of window */
+	background-color: #D8D8D8;
+}
+
+#footer {
+	font-style: italic;
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
 }
